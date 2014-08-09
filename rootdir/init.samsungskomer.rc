@@ -83,6 +83,8 @@ on post-fs
     chmod 0775 /efs/FactoryApp
     chown radio system /efs/imei
     chmod 0770 /efs/imei
+    chown radio system /efs/modemfs 
+    chmod 0770 /efs/modemfs 
     chown radio system /efs/bluetooth
     chown radio system /efs/wifi
 
